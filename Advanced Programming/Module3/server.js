@@ -23,6 +23,10 @@ app.get("/contact", (req, res) => {
     res.sendFile(path.join(__dirname, "views", "contact.html"));
 });
 
+app.get("/volunteer", (req, res) => {
+    res.sendFile(path.join(__dirname, "views", "volunteer.html"));
+});
+
 // Handle GET form submission
 app.get("/submit", (req, res) => {
     const { name, email, other } = req.query;
