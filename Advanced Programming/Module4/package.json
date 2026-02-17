@@ -1,0 +1,16 @@
+{
+  "name": "module3-express-app",
+  "version": "1.0.0",
+  "description": "Simple Express.js application for Module 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Michael Cannon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.1"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
